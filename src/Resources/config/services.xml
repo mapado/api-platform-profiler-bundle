@@ -12,7 +12,7 @@
 
             <!-- priority="300" -->
             <tag name="data_collector"
-                template="MapadoApiPlatformProfilerBundle:data_collector:request.html.twig"
+                template="@MapadoApiPlatformProfilerBundle/Resources/views/data_collector/request.html.twig"
                 id="mapado_api_platform_profiler.request_collector"
                 />
         </service>

@@ -7,7 +7,10 @@
         "symfony/config": "^3.3||^4.0",
         "symfony/http-kernel": "^3.3||^4.0",
         "symfony/http-foundation": "^3.3||^4.0",
-        "api-platform/core": "^2.1"
+        "api-platform/core": "*"
+    },
+    "conflict": {
+        "api-platform/core": "<2.0.0"
     },
     "license": "MIT",
     "autoload": {

@@ -74,4 +74,12 @@ class RequestCollector extends DataCollector
     {
         return 'mapado_api_platform_profiler.request_collector';
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function reset()
+    {
+
+    }
 }
